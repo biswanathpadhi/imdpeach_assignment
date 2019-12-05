@@ -25,7 +25,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 					"html:target/cucumber_reports", 
 					"json:target/cucumber_reports/CucumberTestReport.json",
 					"junit:target/junit_reports/cucumber.xml",
-					"com.cucumber.listener.ExtentCucumberFormatter:target/report.html" }, // to generate different types of
+					"com.cucumber.listener.ExtentCucumberFormatter:target/TestResultReport.html" }, // to generate different types of
 																						// reporting
 		monochrome = true, // display the console output in a proper readable format
 		strict = true, // it will check if any step is not defined in step definition file
